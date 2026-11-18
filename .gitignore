@@ -1,0 +1,74 @@
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.vite/
+
+# IDE and editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# Local configuration
+.vercel/
+.netlify/
+
+# Storybook
+storybook-static/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Playwright
+playwright-report/
+test-results/
+
+# Miscellaneous
+*.orig
